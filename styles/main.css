@@ -10,7 +10,7 @@
   display: inline-block;
   width: 49%;
   vertical-align: top;
-  background-color: chocolate;
+  background-color: rgba(210, 105, 30, 0.5);
   height: 200px;
   max-width: 750px;
 }
@@ -20,6 +20,10 @@
   object-fit: cover;
   width: 30%;
   vertical-align: top;
+  opacity: 0.9;
+}
+.box img:hover {
+  opacity: 1;
 }
 
 .textBox {
