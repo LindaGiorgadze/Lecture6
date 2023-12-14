@@ -1,0 +1,36 @@
+
+.container {
+  background-color: antiquewhite;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.box {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  background-color: chocolate;
+  height: 200px;
+  max-width: 750px;
+}
+
+.box img {
+  height: 100%;
+  object-fit: cover;
+  width: 30%;
+  vertical-align: top;
+}
+
+.textBox {
+  display: inline-block;
+  width: 69%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.textBox h2,
+.textBox p {
+  display: inline-block;
+}
+
+
